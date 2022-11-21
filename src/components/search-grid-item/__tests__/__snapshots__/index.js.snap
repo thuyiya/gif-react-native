@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchGridItem renders correctly react-test-renderer 1`] = `
+<TouchableOpacity
+  accessibilityHint="Tap to navigate to full search view"
+  accessibilityLabel="Search Item of "
+  accessible={true}
+  onPress={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "justifyContent": "center",
+      "padding": 4,
+    }
+  }
+>
+  <Image
+    resizeMode="cover"
+    source={
+      Object {
+        "uri": "",
+      }
+    }
+    style={
+      Object {
+        "height": 231.33333333333334,
+        "width": 231.33333333333334,
+      }
+    }
+  />
+</TouchableOpacity>
+`;

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Skeleton renders correctly react-test-renderer 1`] = `
+<ForwardRef(AnimatedComponentWrapper)
+  style={
+    Object {
+      "backgroundColor": "#f0f0f0",
+      "height": "100%",
+      "marginTop": 0,
+      "opacity": 0.5,
+      "width": "100%",
+    }
+  }
+/>
+`;

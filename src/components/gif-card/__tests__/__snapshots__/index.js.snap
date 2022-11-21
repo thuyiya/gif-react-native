@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GifCard renders correctly react-test-renderer 1`] = `
+<React.Fragment>
+  <View
+    style={
+      Object {
+        "height": 718,
+        "width": 718,
+      }
+    }
+  >
+    <Skeleton />
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "marginTop": 8,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      style={
+        Object {
+          "width": 654,
+        }
+      }
+    >
+      <Text
+        accessibilityAutoFocus={true}
+        accessibilityRole="header"
+        style={
+          Object {
+            "color": "#000000",
+            "marginTop": 16,
+          }
+        }
+      >
+        
+      </Text>
+      <Text
+        style={
+          Object {
+            "marginTop": 8,
+          }
+        }
+      >
+        
+      </Text>
+    </View>
+    <AgeBadge
+      fontSize={22}
+      style={
+        Object {
+          "borderRadius": 36,
+          "height": 72,
+          "width": 72,
+        }
+      }
+      text="16+"
+    />
+  </View>
+</React.Fragment>
+`;

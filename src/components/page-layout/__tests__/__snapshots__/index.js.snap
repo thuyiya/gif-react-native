@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageLayout renders correctly react-test-renderer 1`] = `
+<ForwardRef(SafeAreaView)
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "marginBottom": 16,
+          "marginTop": 8,
+        }
+      }
+    >
+      
+    </View>
+  </View>
+</ForwardRef(SafeAreaView)>
+`;

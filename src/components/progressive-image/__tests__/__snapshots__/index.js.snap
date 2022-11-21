@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProgressiveImage renders correctly react-test-renderer 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#e1e4e8",
+    }
+  }
+>
+  <ForwardRef(AnimatedComponentWrapper)
+    blurRadius={1}
+    onLoad={[Function]}
+    resizeMode="cover"
+    source={
+      Object {
+        "uri": "",
+      }
+    }
+    style={
+      Array [
+        undefined,
+      ]
+    }
+  />
+  <ForwardRef(AnimatedComponentWrapper)
+    onLoad={[Function]}
+    resizeMode="cover"
+    source={
+      Object {
+        "uri": "",
+      }
+    }
+    style={
+      Array [
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        Object {
+          "opacity": 0,
+        },
+        undefined,
+      ]
+    }
+  />
+</View>
+`;

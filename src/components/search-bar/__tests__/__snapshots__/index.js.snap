@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBar renders correctly react-test-renderer 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "margin": 16,
+    }
+  }
+>
+  <ForwardRef(AnimatedComponentWrapper)
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#f0f0f0",
+          "borderRadius": 10,
+          "flexDirection": "row",
+          "paddingLeft": 8,
+          "position": "relative",
+        },
+        Object {
+          "width": 718,
+        },
+      ]
+    }
+  >
+    <Icon
+      name="search"
+    />
+    <TextInput
+      accessibilityHint="Search more Gif"
+      accessibilityLabel="Search Input"
+      accessible={true}
+      allowFontScaling={false}
+      clearTextOnFocus={false}
+      editable={true}
+      maxLength={40}
+      onChangeText={[Function]}
+      onFocus={[Function]}
+      placeholder="Search"
+      placeholderTextColor="#919191"
+      selectionColor="#333333"
+      style={
+        Object {
+          "fontSize": 16,
+          "height": 56,
+          "paddingLeft": 8,
+          "paddingRight": 8,
+          "width": 590,
+        }
+      }
+      value=""
+    />
+  </ForwardRef(AnimatedComponentWrapper)>
+</View>
+`;

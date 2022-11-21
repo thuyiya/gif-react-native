@@ -1,0 +1,48 @@
+{
+  "env": {
+    "es2021": true
+  },
+  "extends": ["eslint:recommended", "plugin:react/recommended", "prettier"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": ["react"],
+  "rules": {
+    "no-implied-eval": "off"
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    },
+    "import/resolver": {
+      "node": {
+        "paths": ["src"],
+        "alias": {
+          "_assets": "./src/assets",
+          "_contexts": "./src/contexts",
+          "_constants": "./src/constants",
+          "_hooks": "./src/hooks",
+          "_models": "./src/models",
+          "_components": "./src/components",
+          "_navigations": "./src/navigations",
+          "_scenes": "./src/scenes",
+          "_services": "./src/services",
+          "_styles": "./src/styles",
+          "_utils": "./src/utils"
+        }
+      }
+    }
+  },
+  "overrides": [
+    {
+      "files": ["**/*.spec.js", "**/*.spec.jsx"],
+      "env": {
+        "jest": true
+      }
+    }
+  ]
+}

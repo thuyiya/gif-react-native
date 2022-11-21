@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon renders correctly react-test-renderer 1`] = `
+<Image
+  source={Object {}}
+  style={
+    Array [
+      Object {
+        "height": 24,
+        "tintColor": "#333333",
+        "width": 24,
+      },
+      undefined,
+    ]
+  }
+/>
+`;
